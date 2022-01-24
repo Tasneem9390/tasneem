@@ -1,0 +1,156 @@
+/* i have alredy create svg coding with the help of w3 school
+<svg width="160px" height="160px">
+			<defs>
+    <linearGradient id="linear" >
+      <stop offset="0%"   stop-color="#05a"/>
+      <stop offset="100%" stop-color="#0a5"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="70"  stroke-linecap="round"  />
+</svg>
+</div>
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* i have create already outer box shadow */
+/* .outer{
+	box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .15),
+	-6px -6px 10px -1px rgba(255, 255, 255, .7);
+	padding: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* i have create already inner box shadow */
+/* .inner{
+ box-shadow:inset 4px 4px  6px -1px rgba(0, 0, 0, .2),
+	inset -4px -4px  6px -1px rgba(255, 255, 255, .7),
+	-0.5px -0.5px 0px rgba(255, 255, 255, 1),
+	0.5px 0.5px 0px rgba(0, 0, 0, .2),
+	0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+NOw explained jaavscript code */
+
+
+/* create 1st varaible number name and add id selector value store  */
+	 var number = document.getElementById('num');
+
+
+ /* create 2nd  varaible count name and add count value is 0 */
+	var count = 0;
+
+	/* create one function and function name set_time */
+	function set_time(){
+		/* use  if else codintion */
+		 /* 1st if condition show is count == 50 is count value is equal to 50
+		 when running count is stooped with clearInterval() method */
+			if (count == 50) {
+  		clearInterval();
+  	}
+/* second else count = count + 1 mean is 0 = 0 + 1 is equal to count = 0 + 1 =
+count =1 simiar add count = 1 + 1 = count value is 2 simir work count value is 50
+because condition set (count == 50) */
+  	else{
+  		/* mathmatics logic */
+  		count = count + 1;
+  		0 = 0 + 1
+  		count = 0 + 1
+  		count = 1
+
+  		/* this line code show html value = count value */
+ 	number.innerHTML = count + "%";
+ 	/* value equal 50% ok */
+
+  	}
+  }
+  
+/*   code is run with time_set function */
+  time_set();
+
+
+  /* this line of code add 40 milisecond time in function */
+  setInterval(time_set, 40);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
